@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .cover{
-background-image: url("images/jagoda-kondratiuk-sDeGlMAwcH4-unsplash.jpg");
-/* background-color: black;
-} */
+background-image: url("images/pexels-pixabay-144234.jpg");
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+margin-bottom: 150px;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 300px; */
+    font-size: 75px;
+    font-family: 'Lobster', cursive;
+    color: red;
+    padding-top: 100px;
+}
