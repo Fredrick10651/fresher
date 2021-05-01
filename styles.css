@@ -5,6 +5,7 @@ background-repeat: no-repeat;
 height: 100vh;
 background-size: cover;
 margin-bottom: 150px;
+background-attachment: fixed;
 
 }
 h1{
