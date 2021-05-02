@@ -15,10 +15,10 @@ const CowData = {
     shadeD: {
       NoOfCows: 32,
       AvgProduction: 17,
-    } // I think cohort ya this time hawapewi no cows per shade
+    } 
   // will display the CowData per shade
   };
-  CowData.displayObject("cowdata", CowData);
+  CowData.displayObject("cowData", CowData);
   console.log(CowData);
   
   var totalProdPerShade= function(c,b){
@@ -28,7 +28,7 @@ const CowData = {
    let shadeB= totalProdPerShade(15,9);
    let shadeC= totalProdPerShade(23,14);
    let shadeD= totalProdPerShade(32,17);
-  // works out the totoal calculations of milk produced per shed
+  // works out the total calculations of milk produced per shed
    
   console.log('Your production in Shed A' ,shadeA, 'litres per day');
   console.log('Your production in Shed B' ,shadeB, 'litres per day');
@@ -60,7 +60,7 @@ const CowData = {
    
    //Use query selectors huku ku print the data to the HTML
    console.log('Your weekly income will be Ksh', incomeWeek);
-   console.log('Your yearly income will be Ksh ',incomeyearly);
+   console.log('Your yearly income will be Ksh ',incomeYearly);
    let shades = [shadeA,shadeB,shadeC,shadeD];
    let shadeName = ['shadeA','shadeB','shadeC','shadeD'];
    
