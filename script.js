@@ -24,10 +24,10 @@ const CowData = {
   var totalProdPerShade= function(c,b){
     return c*b;
   };
-   let shadeA= totalProdPerShade(25,10);
-   let shadeB= totalProdPerShade(15,9);
-   let shadeC= totalProdPerShade(23,14);
-   let shadeD= totalProdPerShade(32,17);
+   let shadeA= totalProdPerShade(30,15);
+   let shadeB= totalProdPerShade(19,14);
+   let shadeC= totalProdPerShade(21,10);
+   let shadeD= totalProdPerShade(39,23);
   // works out the total calculations of milk produced per shed
    
   console.log('Your production in Shed A' ,shadeA, 'litres per day');
