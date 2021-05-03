@@ -36,18 +36,18 @@ const CowData = {
   console.log('Your production in Shed D' ,shadeD, 'litres per day');
    
    
-   let totalproduction = shadeA + shadeB + shadeC + shadeD;
+   let totalProduction = shadeA + shadeB + shadeC + shadeD;
   // works out the total milk produced in all the sheds per day
    
    
-   console.log('The total production is',  totalproduction ,'litres per day');
+   console.log('The total production is',  totalProduction ,'litres per day');
    let selling_price = 'rate1';
    let rate1 = 45;
    let newRate = 49.60;
    
    
-   let newIncome = totalproduction * newRate;
-   let newIncomePerDay = totalproduction * rate1;
+   let newIncome = totalProduction * newRate;
+   let newIncomePerDay = totalProduction * rate1;
    
    console.log(newIncome, newIncomePerDay);
    
@@ -56,9 +56,9 @@ const CowData = {
      
    };
    let incomeWeek  = incomeOverTime(7);
-   let incomeyearly  = incomeOverTime(366);
+   let incomeYearly  = incomeOverTime(366);
    
-   //Use query selectors huku ku print the data to the HTML
+  
    console.log('Your weekly income will be Ksh', incomeWeek);
    console.log('Your yearly income will be Ksh ',incomeYearly);
    let shades = [shadeA,shadeB,shadeC,shadeD];
@@ -72,10 +72,10 @@ const CowData = {
     let i =``;
     monthName.map(
       function(element,index){
-        i+=`Your income for ${element} is ${rate1*totalproduction*getNumberOfDaysInMonth(index+1)}
+        i+=`Your income for ${element} is ${rate1*totalProduction*getNumberOfDaysInMonth(index+1)}
         `;
         // should work out the yearly income considering the first rate before increase of the selling_price
-        i+=`Your income for ${element} is ${newRate*totalproduction*getNumberOfDaysInMonth(index+1)}
+        i+=`Your income for ${element} is ${newRate*totalProduction*getNumberOfDaysInMonth(index+1)}
         `;
         // Compares the increase of the new price with the old selling_price
       }
