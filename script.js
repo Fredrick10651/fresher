@@ -1,20 +1,20 @@
 // Random data: No of cows && Average prod of milk/ltr
 const CowData = {
     shadeA: {
-      NoOfCows: 25,
-      AvgProduction: 10,
+      NoOfCows: 30,
+      AvgProduction: 15,
     },
     shadeB: {
-      NoOfCows: 15,
-      AvgProduction: 9,
-    },
-    shadeC: {
-      NoOfCows: 23,
+      NoOfCows: 19,
       AvgProduction: 14,
     },
+    shadeC: {
+      NoOfCows: 21,
+      AvgProduction: 10,
+    },
     shadeD: {
-      NoOfCows: 32,
-      AvgProduction: 17,
+      NoOfCows: 39,
+      AvgProduction: 23,
     } 
   // will display the CowData per shade
   };
