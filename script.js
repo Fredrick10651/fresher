@@ -82,6 +82,6 @@ const CowData = {
       );
       return i;
   }
-  console.log(incomeReport());
+  ;console.log(incomeReport())
   
   
